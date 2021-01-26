@@ -2,6 +2,7 @@
 #include <thread>
 #include "db.h"
 #include <tbb/tbb.h>
+#include <RecReg.pb.h>
 
 using namespace std;
 
@@ -11,6 +12,8 @@ void hello(){
 
 int main()
 {
+    GOOGLE_PROTOBUF_VERIFY_VERSION;
+
     get_data();
 
     std::cout << "TBB version: " << TBB_VERSION_MAJOR
