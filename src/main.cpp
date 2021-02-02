@@ -1,6 +1,7 @@
 #include <iostream>
 #include <thread>
 #include "db.h"
+#include "config_loader.h"
 #include <tbb/tbb.h>
 #include <RecReg.pb.h>
 
@@ -21,6 +22,10 @@ int main()
 
     std::thread t(hello);
     t.join();
+
+    ConfigLoader cl;
+    cl.doSmth();
+
     return 0;
 }
 
