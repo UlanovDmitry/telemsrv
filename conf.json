@@ -1,0 +1,8 @@
+{
+    "ListenAddress":":2425",
+	"BaseData":"host=localhost port=5432 dbname=translation_base user=wr password=rfvmju sslmode=disable",
+	"BaseGis":"host=localhost port=5432 dbname=gis_base user=wr password=rfvmju sslmode=disable",
+	"BaseSrv":"host=localhost port=5432 dbname=services_base user=wr password=rfvmju sslmode=disable",
+	"BaseConf":"host=localhost port=5432 dbname=config_base user=wr password=rfvmju sslmode=disable",
+	"Objects":[]
+}
