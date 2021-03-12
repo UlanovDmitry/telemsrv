@@ -1,4 +1,4 @@
-#include "config_loader.h"
+#include "config_loader.hpp"
 #include "rapidjson/document.h"
 #include "rapidjson/prettywriter.h"
 #include "rapidjson/stringbuffer.h"

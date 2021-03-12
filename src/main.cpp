@@ -1,5 +1,5 @@
-#include "config_loader.h"
-#include "db.h"
+#include "config/config_loader.hpp"
+#include "db/db.hpp"
 #include <iostream>
 //#include <RecReg.pb.h>
 //#include <tbb/tbb.h>
